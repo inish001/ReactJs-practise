@@ -33,9 +33,6 @@ import "./App.css";
 // import RefsDemo1 from "./components/RefsDemo1";      // ref using class and call back refs
 // import HookTimer1 from "./components/HookTimer1";  // for clearing my doubt
 // import FRParentInput from "./components/FRParentInput"; // for forward ref
-// import PureComp from "./components/PureComp";  // for pure components.
-// import RegComp from "./components/RegComp";
-// import ParentComp from "./components/ParentComp";
 // import LifeCycleA from "./components/LifeCycleA";   // for lifecycle method mounting
 // import LFA from "./components/LFA";  // for component did mount
 // import LifeCycleC from "./components/LifeCycleC";  // for lifecycle method update
@@ -52,7 +49,11 @@ import "./App.css";
 // import Counter1 from "./components/Counter1";  // for using reducer hook
 // import Counter2 from "./components/Counter2";  // for using reducer hook
 // import Counter3 from "./components/Counter3";  // for using multiple useReducers
-import ComponentA from "./components/ComponentA";  // for using use context with use reducer
+// import ComponentA from "./components/ComponentA";  // for using use context with use reducer
+// import DataFetch1 from "./components/DataFetch1";   // for data fetching useState + useffect
+// import DataFetch2 from "./components/DataFetch2";    // for data fetching useReducer + useEffect
+// import ParentComp from "./components/ParentComp";      // for useCallback hook
+// import Camper1 from "./components/Camper1";              // for useMemo hook
 
 // export const UserContext = React.createContext();  // for context 
 // export const ChannelContext = React.createContext();  // for context 
@@ -131,7 +132,11 @@ function App() {
        {/* <Counter1/> */}
        {/* <Counter2/> */}
        {/* <Counter3/> */}
-       <ComponentA/>
+       {/* <ComponentA/> */}
+       {/* <DataFetch1/> */}
+       {/* <DataFetch2/> */}
+       {/* <ParentComp/> */}
+       {/* <Camper1/> */}
     </div>
   );
 }
