@@ -51,7 +51,8 @@ import "./App.css";
 // import PostForm from "./components/PostForm";   // for using axios post
 // import Counter1 from "./components/Counter1";  // for using reducer hook
 // import Counter2 from "./components/Counter2";  // for using reducer hook
-import Counter3 from "./components/Counter3";  // for using multiple useReducers
+// import Counter3 from "./components/Counter3";  // for using multiple useReducers
+import ComponentA from "./components/ComponentA";  // for using use context with use reducer
 
 // export const UserContext = React.createContext();  // for context 
 // export const ChannelContext = React.createContext();  // for context 
@@ -129,7 +130,8 @@ function App() {
        {/* <PostForm/> */}
        {/* <Counter1/> */}
        {/* <Counter2/> */}
-       <Counter3/>
+       {/* <Counter3/> */}
+       <ComponentA/>
     </div>
   );
 }
